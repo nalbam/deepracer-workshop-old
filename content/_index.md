@@ -2,7 +2,7 @@
 title: "Home"
 ---
 
-# Deepracer Workshop
+# DeepRacer Workshop
 
 {{% notice tip %}}
 {{% /notice %}}
