@@ -1,0 +1,24 @@
+{
+  "name": "deepracer-workshop",
+  "version": "1.0.0",
+  "homepage": "https://github.com/mzcdev/deepracer-workshop",
+  "bugs": {
+    "url": "https://github.com/mzcdev/deepracer-workshop/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mzcdev/deepracer-workshop.git"
+  },
+  "scripts": {
+    "theme": "git submodule init && git submodule update",
+    "build": "rm -rf docs && hugo -v -b /deepracer-workshop/ -d docs",
+    "start": "hugo server -w -v --enableGitInfo --bind=0.0.0.0 --port 8080 --navigateToChanged",
+    "deploy": "aws s3 sync docs/ s3://docs.mzdev.be/deepracer-workshop/ --delete --acl public-read"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2",
+    "hugo-cli": "^0.11.0",
+    "hugo-lunr": "0.0.4",
+    "mermaid": "^8.4.2"
+  }
+}
