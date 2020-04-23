@@ -1,4 +1,4 @@
-title = "Deepracer Workshop"
+title = "DeepRacer Workshop"
 theme = "learn"
 
 baseURL = "/"
@@ -11,7 +11,7 @@ defaultContentLanguageInSubdir= false
 
 [params]
   editURL = "https://github.com/mzcdev/deepracer-workshop/edit/master/content/"
-  description = "Deepracer Workshop"
+  description = "DeepRacer Workshop"
   author = "Jungyoul Yu"
   showVisitedLinks = false
   disableBreadcrumb = false
@@ -23,7 +23,7 @@ home = [ "HTML" ]
 
 [Languages]
 [Languages.ko]
-title = "Deepracer Workshop"
+title = "DeepRacer Workshop"
 weight = 2
 languageName = "Korean"
 
