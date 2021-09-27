@@ -1,13 +1,13 @@
 {
   "name": "deepracer-workshop",
   "version": "1.0.0",
-  "homepage": "https://github.com/mzcdev/deepracer-workshop",
+  "homepage": "https://github.com/nalbam/deepracer-workshop",
   "bugs": {
-    "url": "https://github.com/mzcdev/deepracer-workshop/issues"
+    "url": "https://github.com/nalbam/deepracer-workshop/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mzcdev/deepracer-workshop.git"
+    "url": "git+https://github.com/nalbam/deepracer-workshop.git"
   },
   "scripts": {
     "theme": "git submodule init && git submodule update",
